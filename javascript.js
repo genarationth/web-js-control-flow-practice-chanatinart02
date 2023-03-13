@@ -50,3 +50,9 @@ console.log(dayNumber)
 // }
 
 // console.log(dayNumber)
+
+//ternary
+const password = 'password'
+password.length >= 12 ? console.log('password is very strong') : password.length >=8 ? console.log('welcome') : console.log('sorry the password is too short')
+
+console.log(password)
